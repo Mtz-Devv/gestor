@@ -8,13 +8,13 @@ import java.sql.Statement;
 public class DatabaseConnector {
 
     // --- CONFIGURACIÓN DE CONEXIÓN ---
-    private static final String HOST = "localhost";
+    private static final String HOST = "3.234.209.169"; // public ipv4 of AWS
     private static final String PORT = "3306";
     private static final String DB_NAME = "fourverr_app";
 
     // ¡RECUERDA PONER TU CONTRASEÑA AQUÍ!
-    private static final String USER = "root";
-    private static final String PASS = "root@";
+    private static final String USER = "adminFurverr";
+    private static final String PASS = "serverdelMal1313@";
 
     private static final String URL_ADMIN = "jdbc:mysql://" + HOST + ":" + PORT
             + "/?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
