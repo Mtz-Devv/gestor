@@ -1,3 +1,5 @@
 .ConnectionDB.properties
-# Database connection configuration
+# database connection configuration
 
+src/database/ConnectionDB.properties
+# solo para amarrar el ignore a este archivo xd
