@@ -4,7 +4,7 @@ import java.io.InputStream;
 import java.util.Properties;
 
 public class DatabaseConfig {
-    private static final String PROPERTIES_FILE = "ConnectionDB.properties";
+    private static final String PROPERTIES_FILE = "database/ConnectionDB.properties";
 
     private String host;
     private String port;
